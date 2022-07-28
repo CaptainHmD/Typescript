@@ -1,0 +1,15 @@
+you can`t run typescript in browser , you have to transpile to javascript , to run it.
+
+by doing this
+tsc nameOfTheFile.ts  this will create a new javascript file , this process called --> transpile <--
+
+
+but you will have to run this command every time to transpile it
+
+or just type
+
+tsc nameOfTheFile.ts -w
+
+example 
+
+tsc main.ts -w
